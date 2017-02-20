@@ -1,4 +1,4 @@
-﻿Deploy MVC App to Azure App Service
+Deploy MVC App to Azure App Service
 =
 
 # Overview
