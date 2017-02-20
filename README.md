@@ -17,6 +17,6 @@ The purpose of this repo is to demonstrate deployment of .Net MVC App to Azure A
 5. Command line deploy
 6. and [more](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-deploy)
 
-The two options I have confirmed on 2017-02-20:
+# The two code deployment options I have confirmed on 2017-02-20:
 1. from VS IDE
 2. continuous deployment from Github
