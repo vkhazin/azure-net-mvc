@@ -10,20 +10,9 @@ namespace azure_net_mvc.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
+            var webMsg = System.Environment.MachineName;
+            ViewData["WebMsg"] = webMsg;
+            ViewData["Message"] = DateTime.UtcNow.ToString("O");
             return View();
         }
     }
